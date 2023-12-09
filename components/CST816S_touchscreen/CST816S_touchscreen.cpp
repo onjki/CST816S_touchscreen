@@ -1,10 +1,10 @@
 #include "esphome/core/log.h"
 #include "CST816S_touchscreen.h"
 #include "CST816S.h"
-#define I2C_SDA 4
-#define I2C_SCL 5
-#define TP_RST 1
-#define TP_INT 0
+#define I2C_SDA 6
+#define I2C_SCL 7
+#define TP_RST 13
+#define TP_INT 5
 
 namespace esphome {
 namespace cst816s_touchscreen {
